@@ -1,5 +1,5 @@
 export default function SharePage(){
     return(
-        <h1>SharePage</h1>
+        <h1>Share Meal</h1>
     )
 }
