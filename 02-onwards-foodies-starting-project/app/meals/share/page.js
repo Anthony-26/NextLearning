@@ -6,7 +6,7 @@ import { shareMeal } from '@/lib/actions';
 import MealsFormSubmit from '@/components/meals/meals-form-submit';
 
 export default function ShareMealPage() {
-  const status = useFormStatus();
+//   const status = useFormStatus();
 
   return (
     <>
