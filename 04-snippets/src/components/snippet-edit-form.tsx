@@ -21,7 +21,7 @@ export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
   const editSnippetAction = actions.editSnippet.bind(
     null,
     snippet.id,
-    snippet.code
+    code
   );
 
   return (
