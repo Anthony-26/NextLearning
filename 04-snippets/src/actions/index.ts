@@ -1,5 +1,6 @@
 'use server';
 
+import { revalidatePath } from 'next/cache';
 import { db } from '@/db';
 import { redirect } from 'next/navigation';
 
@@ -17,6 +18,7 @@ export async function deleteSnippet(id: number) {
     where: { id },
   });
 
+  revalidatePath('/');
   redirect('/');
 }
 
@@ -57,6 +59,6 @@ export async function createSnippet(
       };
     }
   }
-
+  revalidatePath('/');
   redirect('/');
 }
