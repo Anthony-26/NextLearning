@@ -42,3 +42,7 @@ export default async function SnippetShowPage(props: SnippetShowPageProps) {
     </div>
   );
 }
+
+export async function generateStaticParams(){
+  
+}
