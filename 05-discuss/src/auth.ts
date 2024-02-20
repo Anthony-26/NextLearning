@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import Github from 'next-auth/providers/github';
 import { PrismaAdapter } from '@auth/prisma-adapter';
-import { db } from './app/db';
+import { db } from '@/db';
 import providers from 'next-auth/providers';
 
 const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
