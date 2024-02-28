@@ -1,8 +1,10 @@
-import HeroPage from '@/components/Hero';
+import { Hero } from '@/components/index';
 import Image from 'next/image';
 
 export default function Home() {
-  return (<main className="overflow-hidden">
-      <HeroPage />
-    </main>);
+  return (
+    <main className="overflow-hidden">
+      <Hero />
+    </main>
+  );
 }
