@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import CustomButton from './custom-button';
+import CustomButton from './CustomButton';
 
 const Navbar = () => {
   return (
