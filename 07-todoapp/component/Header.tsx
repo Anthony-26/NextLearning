@@ -1,8 +1,9 @@
 import React from 'react'
+import { Navbar } from '@nextui-org/react';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <Navbar>Navbar</Navbar>
   )
 }
 
